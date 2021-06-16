@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.TopDownMetroidvaniaVR.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\.idea\.idea.TopDownMetroidvaniaVR\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
