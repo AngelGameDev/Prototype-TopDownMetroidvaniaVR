@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/angel/OneDrive/Documents/Projects/Prototypes/TopDownMetroidvaniaVR/Packages/manifest.json
+    m_FilePath: C:/Users/angel/OneDrive/Documents/Projects/Prototypes/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,12 +8,12 @@ m_ProjectFiles:
       ticks: 637594068585502377
     m_Hash: 3078928616
   m_LockFileStatus:
-    m_FilePath: C:/Users/angel/OneDrive/Documents/Projects/Prototypes/TopDownMetroidvaniaVR/Packages/packages-lock.json
+    m_FilePath: C:/Users/angel/OneDrive/Documents/Projects/Prototypes/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637594068590955835
+      ticks: 637594544948002833
     m_Hash: 2619351027
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -124,7 +124,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -231,7 +231,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -306,7 +306,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -375,7 +375,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.3.0
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.postprocessing@2.3.0
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.postprocessing@2.3.0
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -460,7 +460,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.19
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.test-framework@1.1.19
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.test-framework@1.1.19
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -553,7 +553,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -712,7 +712,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.4
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.timeline@1.4.4
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.timeline@1.4.4
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2702,7 +2702,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.5
       source: 1
-      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ext.nunit@1.0.5
+      resolvedPath: C:\Users\angel\OneDrive\Documents\Projects\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ext.nunit@1.0.5
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2760,5 +2760,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/angel/OneDrive/Documents/Projects/Prototypes/TopDownMetroidvaniaVR/Packages
+m_ProjectPath: C:/Users/angel/OneDrive/Documents/Projects/Prototypes/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages
 m_EditorVersion: 2020.2.1f1 (270dd8c3da1c)
