@@ -6,6 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Main;
+
     public Camera RefCamera;
     public Animator RefAnimator;
     
@@ -19,13 +21,25 @@ public class PlayerController : MonoBehaviour
     private Vector3 ActiveVelocity;
     private Quaternion TargetRot;
 
+    private Door InteractibleDoor;  // Make a queue/list eventually.
+
     private void Awake()
     {
         RefRigidbody = GetComponent<Rigidbody>();
+
+        Main = this;
     }
 
     private void Update()
     {
+        if (Input.GetButtonDown("Interact"))
+        {
+            if (InteractibleDoor != null)
+            {
+                InteractibleDoor.Interact();
+            }
+        }
+
         // Get camera y-axis quaternion.
         var cameraForward = Quaternion.AngleAxis(RefCamera.transform.localEulerAngles.y, Vector3.up);
 
@@ -65,5 +79,15 @@ public class PlayerController : MonoBehaviour
     private void LateUpdate()
     {
         RefRigidbody.velocity = ActiveVelocity * Speed;
+    }
+
+    public void SetInteractibleDoor(Door interactibleDoor)
+    {
+        InteractibleDoor = interactibleDoor;
+    }
+
+    public void RemoveInteractibleDoor()
+    {
+        InteractibleDoor = null;
     }
 }

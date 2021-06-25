@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Projects/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages/manifest.json
+    m_FilePath: D:/Prototypes/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637594068585502377
-    m_Hash: 3078928616
+      ticks: 637602302069197137
+    m_Hash: 31471238
   m_LockFileStatus:
-    m_FilePath: C:/Projects/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages/packages-lock.json
+    m_FilePath: D:/Prototypes/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637600615188492182
+      ticks: 637602302681347427
     m_Hash: 2619351027
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -124,7 +124,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -231,7 +231,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -306,7 +306,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -375,7 +375,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.3.0
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.postprocessing@2.3.0
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.postprocessing@2.3.0
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -460,7 +460,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.19
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.test-framework@1.1.19
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.test-framework@1.1.19
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -504,13 +504,15 @@ m_PackageAssets:
         - 1.1.22
         - 1.1.24
         - 1.1.26
+        - 1.1.27
         compatible:
         - 1.1.19
         - 1.1.20
         - 1.1.22
         - 1.1.24
         - 1.1.26
-        verified: 1.1.26
+        - 1.1.27
+        verified: 1.1.27
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.5
@@ -553,7 +555,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -712,7 +714,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.4
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.timeline@1.4.4
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.timeline@1.4.4
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -897,7 +899,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -960,7 +962,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1008,7 +1010,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1056,7 +1058,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1104,7 +1106,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1152,7 +1154,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1200,7 +1202,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1252,7 +1254,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1308,7 +1310,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1357,7 +1359,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1405,7 +1407,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1453,7 +1455,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1501,7 +1503,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1549,7 +1551,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1597,7 +1599,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1649,7 +1651,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1697,7 +1699,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1753,7 +1755,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1805,7 +1807,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1853,7 +1855,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1917,7 +1919,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1965,7 +1967,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2021,7 +2023,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2069,7 +2071,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2125,7 +2127,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2181,7 +2183,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2237,7 +2239,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2309,7 +2311,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2361,7 +2363,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2421,7 +2423,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2483,7 +2485,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2531,7 +2533,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2591,7 +2593,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2643,7 +2645,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      resolvedPath: E:\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2702,7 +2704,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.5
       source: 1
-      resolvedPath: C:\Projects\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ext.nunit@1.0.5
+      resolvedPath: D:\Prototypes\Prototype-TopDownMetroidvaniaVR\TopDownMetroidvaniaVR\Library\PackageCache\com.unity.ext.nunit@1.0.5
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2760,5 +2762,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Projects/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages
+m_ProjectPath: D:/Prototypes/Prototype-TopDownMetroidvaniaVR/TopDownMetroidvaniaVR/Packages
 m_EditorVersion: 2020.2.1f1 (270dd8c3da1c)
