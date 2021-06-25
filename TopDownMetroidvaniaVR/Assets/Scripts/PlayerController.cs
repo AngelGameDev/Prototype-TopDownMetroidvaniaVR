@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     [Space(10)]
     
     public float Speed = 10f;
-
     public float TurnSpeed = 10f;
 
     private Rigidbody RefRigidbody;

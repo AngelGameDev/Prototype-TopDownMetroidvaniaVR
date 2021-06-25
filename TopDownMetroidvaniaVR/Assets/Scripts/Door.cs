@@ -8,10 +8,9 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public Transform Hinge;
+    public TriggerRoom TriggeredRoom;
 
     [Space(10)]
-
-    [Header("Animation")]
 
     public float CloseAngle = 0f;
     public float OpenAngle = 170f;
@@ -32,6 +31,7 @@ public class Door : MonoBehaviour
 
     private bool IsOpening;
     private bool IsOpen;
+    private bool IsTriggered;
 
     private void Awake()
     {
@@ -61,6 +61,12 @@ public class Door : MonoBehaviour
     public void Open()
     {
         Debug.Log("Opening door.");
+
+        if (!IsTriggered)
+        {
+            TriggeredRoom.Trigger();
+            IsTriggered = true;
+        }
 
         StartCoroutine(OpenRoutine());
     }
