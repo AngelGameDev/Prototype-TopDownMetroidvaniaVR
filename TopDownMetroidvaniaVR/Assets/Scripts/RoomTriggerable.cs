@@ -14,7 +14,7 @@ public class RoomTriggerable : MonoBehaviour
     private Vector3 risenPos;
     private bool HasTriggered = false;
 
-    private void Awake()
+    private void Start()
     {
         risenPos = transform.position;
         transform.Translate(Vector3.down * initalDrop);

@@ -1,0 +1,3 @@
+Made a tiny top-down prototype to try out an idea.
+
+Here's the base trio of rooms with a room visibility mechanic. Going to mess with different top-down view types next.

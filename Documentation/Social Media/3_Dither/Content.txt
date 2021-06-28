@@ -1,0 +1,1 @@
+I particularly like the dither effect (no alpha transparency used to fade). I prototyped it without shaders by just stacking some planes with unlit cutout textures.
