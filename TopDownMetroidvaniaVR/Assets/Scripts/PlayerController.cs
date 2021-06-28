@@ -31,6 +31,13 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (EndTrigger.IsResetting)
+        {
+            ActiveVelocity = Vector3.zero;
+            RefAnimator.SetFloat("Blend", 0f);
+            return;
+        }
+
         if (Input.GetButtonDown("Interact"))
         {
             if (InteractibleDoor != null)
@@ -42,13 +49,14 @@ public class PlayerController : MonoBehaviour
         // Get camera y-axis quaternion.
         var cameraForward = Quaternion.AngleAxis(RefCamera.transform.localEulerAngles.y, Vector3.up);
 
-        ActiveVelocity = cameraForward * 
-                         new Vector3
-                         (
-                             Input.GetAxis("Horizontal"), 
-                             0f, 
-                             Input.GetAxis("Vertical")
-                         );
+        ActiveVelocity = 
+            cameraForward * 
+            new Vector3
+            (
+                Input.GetAxis("Horizontal"), 
+                0f, 
+                Input.GetAxis("Vertical")
+            );
 
         var ActiveSpeed = ActiveVelocity.magnitude;
 
