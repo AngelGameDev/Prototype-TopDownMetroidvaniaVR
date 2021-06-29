@@ -5882,6 +5882,7 @@ MonoBehaviour:
   OrthoMin: 1.5
   OrthoMax: 15
   ZoomSpeedScroll: -150
+  ZoomSpeedButton: -4
 --- !u!1001 &983570611
 PrefabInstance:
   m_ObjectHideFlags: 0

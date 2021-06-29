@@ -24,6 +24,7 @@ public class CameraController : MonoBehaviour
     public float OrthoMin;
     public float OrthoMax;
     public float ZoomSpeedScroll;
+    public float ZoomSpeedButton;
 
     private Camera RefCamera;
 
@@ -85,6 +86,7 @@ public class CameraController : MonoBehaviour
         HeightOffset = Mathf.Clamp(HeightOffset, MinHeight, MaxHeight);
 
         RefCamera.orthographicSize += Input.GetAxis("Scrollwheel") * ZoomSpeedScroll * Time.deltaTime;
+        RefCamera.orthographicSize += Input.GetAxis("Zoom") * ZoomSpeedButton * Time.deltaTime;
         RefCamera.orthographicSize = Mathf.Clamp(RefCamera.orthographicSize, OrthoMin, OrthoMax);
     }
 
