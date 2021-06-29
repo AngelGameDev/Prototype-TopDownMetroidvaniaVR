@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
 {
-    public static PlayerController Main;
+    public static PlayerController Main = null;
 
     public Camera RefCamera;
     public Animator RefAnimator;
@@ -24,9 +24,18 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        RefRigidbody = GetComponent<Rigidbody>();
+        if (Main != null)
+        {
+            Main.transform.position = transform.position;
+
+            Destroy(gameObject);
+            return;
+        }
 
         Main = this;
+        DontDestroyOnLoad(this);
+
+        RefRigidbody = GetComponent<Rigidbody>();
     }
 
     private void Update()

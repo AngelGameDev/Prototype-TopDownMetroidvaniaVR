@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public static CameraController Main = null;
+
     public Transform Target;
 
     [Space(10)]
@@ -25,17 +27,49 @@ public class CameraController : MonoBehaviour
 
     private Camera RefCamera;
 
-    private Vector3 StartOffset;
+    private float CameraArmLength;
     private Vector3 ActiveOffset;
     private float ActiveAngle;
     private float FixedTargetHeight;
     private float HeightOffset;
 
+    private void Awake()
+    {
+        if (Main != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Main = this;
+        DontDestroyOnLoad(this);
+    }
+
     private void Start()
     {
         RefCamera = GetComponent<Camera>();
 
-        StartOffset = transform.position - Target.position;
+        HeightOffset = Mathf.Sqrt(transform.position.y);
+        ActiveAngle = transform.eulerAngles.y + 180f;
+
+        CameraArmLength = Vector3.Distance
+        (
+            new Vector3
+            (
+                transform.position.x,
+                0f,
+                transform.position.z
+            ),
+            new Vector3
+            (
+                Target.position.x,
+                0f,
+                Target.position.z
+            )
+        );
+
+        Debug.Log(CameraArmLength);
+
         FixedTargetHeight = Target.position.y; // Saves this to use forever.
     }
 
@@ -44,7 +78,7 @@ public class CameraController : MonoBehaviour
         // Horizontal rotation.
         ActiveAngle += Input.GetAxis("LookHorizontal") * TurnSpeed * Time.deltaTime;
 
-        ActiveOffset = Quaternion.AngleAxis(ActiveAngle, Vector3.up) * StartOffset;
+        ActiveOffset = Quaternion.AngleAxis(ActiveAngle, Vector3.up) * (Vector3.forward * CameraArmLength);
 
         // Vertical tilt.
         HeightOffset += Input.GetAxis("LookTilt") * HeightAdjustSpeed * Time.deltaTime;
@@ -57,9 +91,9 @@ public class CameraController : MonoBehaviour
     private void LateUpdate()
     {
         Vector3 adjustedTargetPos = Target.position;
-        adjustedTargetPos.y = FixedTargetHeight + HeightOffset;
+        adjustedTargetPos.y = FixedTargetHeight + (HeightOffset * HeightOffset);
 
-        adjustedTargetPos = adjustedTargetPos + ActiveOffset;
+        adjustedTargetPos += ActiveOffset;
 
         // Smoothly move to active target pos.
         transform.position = Vector3.Lerp(transform.position, adjustedTargetPos, FollowSpeed * Time.deltaTime);
