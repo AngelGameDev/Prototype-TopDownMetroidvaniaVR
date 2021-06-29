@@ -5649,6 +5649,9 @@ MonoBehaviour:
   Target: {fileID: 21469301}
   TurnSpeed: 130
   FollowSpeed: 35
+  MinHeight: -9
+  MaxHeight: 20
+  HeightAdjustSpeed: 15
 --- !u!1001 &983570611
 PrefabInstance:
   m_ObjectHideFlags: 0

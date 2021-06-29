@@ -11,10 +11,17 @@ public class CameraController : MonoBehaviour
     public float TurnSpeed;
     public float FollowSpeed;
 
+    [Space(5)]
+
+    public float MinHeight;
+    public float MaxHeight;
+    public float HeightAdjustSpeed;
+
     private Vector3 StartOffset;
     private Vector3 ActiveOffset;
     private float ActiveAngle;
     private float FixedTargetHeight;
+    private float HeightOffset;
 
     private void Start()
     {
@@ -24,15 +31,20 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
+        // Horizontal rotation.
         ActiveAngle += Input.GetAxis("LookHorizontal") * TurnSpeed * Time.deltaTime;
 
         ActiveOffset = Quaternion.AngleAxis(ActiveAngle, Vector3.up) * StartOffset;
+
+        // Vertical tilt.
+        HeightOffset += Input.GetAxis("LookTilt") * HeightAdjustSpeed * Time.deltaTime;
+        HeightOffset = Mathf.Clamp(HeightOffset, MinHeight, MaxHeight);
     }
 
     private void LateUpdate()
     {
         Vector3 adjustedTargetPos = Target.position;
-        adjustedTargetPos.y = FixedTargetHeight;
+        adjustedTargetPos.y = FixedTargetHeight + HeightOffset;
 
         adjustedTargetPos = adjustedTargetPos + ActiveOffset;
 
