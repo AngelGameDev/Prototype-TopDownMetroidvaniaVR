@@ -922,8 +922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1001 &169154717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2158,8 +2158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 7
-  MaxRiseSeconds: 10
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!4 &420255709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8204406447206829204, guid: 0c837400ef1130c4196d20ee30637d9c, type: 3}
@@ -2647,8 +2647,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &476908220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,8 +2701,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1001 &487368409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4077,8 +4077,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &707569576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6630375654688184054, guid: c79d59d66358e0f45a098f4b8a82f8be, type: 3}
@@ -4183,8 +4183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1 &713514422 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
@@ -4203,8 +4203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &716580408 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9100508158649072905, guid: e348e7143b6247b488737e4be26fb038, type: 3}
@@ -4311,8 +4311,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &765497847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
@@ -4331,8 +4331,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1001 &773721361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4503,8 +4503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 7
-  MaxRiseSeconds: 10
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &803040046 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
@@ -4523,8 +4523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &805485903 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9100508158649072905, guid: e348e7143b6247b488737e4be26fb038, type: 3}
@@ -4543,8 +4543,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1 &808444294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
@@ -4914,8 +4914,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1 &867052863 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
@@ -5646,7 +5646,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b5ef9b049cf0a54c8373ef626f62e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 21469301}
+  Target: {fileID: 21469301}
+  TurnSpeed: 130
+  FollowSpeed: 35
 --- !u!1001 &983570611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6025,8 +6027,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &1018804349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9100508158649072905, guid: e348e7143b6247b488737e4be26fb038, type: 3}
@@ -6669,8 +6671,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1 &1168095064
 GameObject:
   m_ObjectHideFlags: 0
@@ -7104,8 +7106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 7
-  MaxRiseSeconds: 10
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!4 &1213813224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7321029070664364311, guid: 44b00c7db33473946ad48053b41e081f, type: 3}
@@ -8378,8 +8380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1001 &1494489860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8638,8 +8640,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &1538694230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9100508158649072905, guid: e348e7143b6247b488737e4be26fb038, type: 3}
@@ -9307,8 +9309,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1001 &1667906959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10285,8 +10287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 7
-  MaxRiseSeconds: 10
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &1773945386
 GameObject:
   m_ObjectHideFlags: 0
@@ -10617,8 +10619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1 &1840371344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6229247520373792897, guid: 3ad7a1cffb2556547a8b7e60fd320431, type: 3}
@@ -10637,8 +10639,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1001 &1840380268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10952,8 +10954,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1001 &1902586970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11573,8 +11575,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1001 &1993504311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11884,8 +11886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 2.25
-  MinRiseSeconds: 3
-  MaxRiseSeconds: 5
+  MinRiseSeconds: 0.2
+  MaxRiseSeconds: 0.6
 --- !u!1001 &2088468499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12149,8 +12151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 7
-  MaxRiseSeconds: 10
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!4 &2099360901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2559810838395413726, guid: e37d55d9adae8724c9dcf1dff5b67578, type: 3}
@@ -12174,8 +12176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initalDrop: 5.2
-  MinRiseSeconds: 4
-  MaxRiseSeconds: 9
+  MinRiseSeconds: 0.5
+  MaxRiseSeconds: 1
 --- !u!1001 &2114524832
 PrefabInstance:
   m_ObjectHideFlags: 0

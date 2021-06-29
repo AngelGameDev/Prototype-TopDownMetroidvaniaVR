@@ -4,23 +4,41 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform target;
+    public Transform Target;
 
-    private Vector3 Offset;
+    [Space(10)]
+
+    public float TurnSpeed;
+    public float FollowSpeed;
+
+    private Vector3 StartOffset;
+    private Vector3 ActiveOffset;
+    private float ActiveAngle;
+    private float FixedTargetHeight;
 
     private void Start()
     {
-        if (target == null)
-        {
-            Destroy(this);
-            return;
-        }
+        StartOffset = transform.position - Target.position;
+        FixedTargetHeight = Target.position.y; // Saves this to use forever.
+    }
 
-        Offset = transform.position - target.position;
+    private void Update()
+    {
+        ActiveAngle += Input.GetAxis("LookHorizontal") * TurnSpeed * Time.deltaTime;
+
+        ActiveOffset = Quaternion.AngleAxis(ActiveAngle, Vector3.up) * StartOffset;
     }
 
     private void LateUpdate()
     {
-        transform.position = target.position + Offset;
+        Vector3 adjustedTargetPos = Target.position;
+        adjustedTargetPos.y = FixedTargetHeight;
+
+        adjustedTargetPos = adjustedTargetPos + ActiveOffset;
+
+        // Smoothly move to active target pos.
+        transform.position = Vector3.Lerp(transform.position, adjustedTargetPos, FollowSpeed * Time.deltaTime);
+
+        transform.LookAt(Target);
     }
 }

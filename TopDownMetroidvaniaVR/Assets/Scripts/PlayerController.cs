@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Get camera y-axis quaternion.
-        var cameraForward = Quaternion.AngleAxis(RefCamera.transform.localEulerAngles.y, Vector3.up);
+        var cameraForward = Quaternion.AngleAxis(RefCamera.transform.eulerAngles.y, Vector3.up);
 
         ActiveVelocity = 
             cameraForward * 
