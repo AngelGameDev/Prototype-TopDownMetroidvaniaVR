@@ -17,6 +17,14 @@ public class CameraController : MonoBehaviour
     public float MaxHeight;
     public float HeightAdjustSpeed;
 
+    [Space(5)]
+
+    public float OrthoMin;
+    public float OrthoMax;
+    public float ZoomSpeedScroll;
+
+    private Camera RefCamera;
+
     private Vector3 StartOffset;
     private Vector3 ActiveOffset;
     private float ActiveAngle;
@@ -25,6 +33,8 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
+        RefCamera = GetComponent<Camera>();
+
         StartOffset = transform.position - Target.position;
         FixedTargetHeight = Target.position.y; // Saves this to use forever.
     }
@@ -39,6 +49,9 @@ public class CameraController : MonoBehaviour
         // Vertical tilt.
         HeightOffset += Input.GetAxis("LookTilt") * HeightAdjustSpeed * Time.deltaTime;
         HeightOffset = Mathf.Clamp(HeightOffset, MinHeight, MaxHeight);
+
+        RefCamera.orthographicSize += Input.GetAxis("Scrollwheel") * ZoomSpeedScroll * Time.deltaTime;
+        RefCamera.orthographicSize = Mathf.Clamp(RefCamera.orthographicSize, OrthoMin, OrthoMax);
     }
 
     private void LateUpdate()

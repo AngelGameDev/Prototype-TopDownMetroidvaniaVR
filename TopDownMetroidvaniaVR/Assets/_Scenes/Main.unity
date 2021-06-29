@@ -4079,26 +4079,6 @@ MonoBehaviour:
   initalDrop: 5.2
   MinRiseSeconds: 0.5
   MaxRiseSeconds: 1
---- !u!1 &707569576 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6630375654688184054, guid: c79d59d66358e0f45a098f4b8a82f8be, type: 3}
-  m_PrefabInstance: {fileID: 162782916}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &707569577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707569576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f3e446d97327fa4bb7b5b5654338830, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initalDrop: 5.2
-  MinRiseSeconds: 0.7
-  MaxRiseSeconds: 1.2
 --- !u!1001 &708989466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5652,6 +5632,9 @@ MonoBehaviour:
   MinHeight: -9
   MaxHeight: 20
   HeightAdjustSpeed: 15
+  OrthoMin: 1.5
+  OrthoMax: 15
+  ZoomSpeedScroll: -150
 --- !u!1001 &983570611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6369,7 +6352,6 @@ GameObject:
   - component: {fileID: 1102999563}
   - component: {fileID: 1102999562}
   - component: {fileID: 1102999565}
-  - component: {fileID: 1102999566}
   m_Layer: 0
   m_Name: Wick
   m_TagString: Untagged
@@ -6467,21 +6449,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 0.007
   frequency: 7
---- !u!114 &1102999566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1102999560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f3e446d97327fa4bb7b5b5654338830, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initalDrop: 5.2
-  MinRiseSeconds: 0.7
-  MaxRiseSeconds: 1.2
 --- !u!1 &1124616499
 GameObject:
   m_ObjectHideFlags: 0
@@ -11408,26 +11375,6 @@ Transform:
   m_Father: {fileID: 1748709151}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 50.308, z: 0}
---- !u!1 &1949378902 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6630375654688184054, guid: c79d59d66358e0f45a098f4b8a82f8be, type: 3}
-  m_PrefabInstance: {fileID: 674537689}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1949378903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949378902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f3e446d97327fa4bb7b5b5654338830, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initalDrop: 5.2
-  MinRiseSeconds: 0.7
-  MaxRiseSeconds: 1.2
 --- !u!1001 &1956704487
 PrefabInstance:
   m_ObjectHideFlags: 0
