@@ -50,6 +50,15 @@ public class CameraController : MonoBehaviour
     public float MaxHeightPerspective;
     public float HeightAdjustSpeedPerspective;
 
+    [Space(10)]
+
+    [Header("TopDown")]
+
+    public float ZoomHeightTopDown;
+    public float ZoomSpeedTopDown;
+    public float ZoomTopDownMin;
+    public float ZoomTopDownMax;
+
     private Camera RefCamera;
 
     private Vector3 ActiveOffset;
@@ -57,6 +66,7 @@ public class CameraController : MonoBehaviour
     private float FixedTargetHeight;
     private float HeightOffsetIso;
     private float HeightOffsetPerspective;
+    private Quaternion TargetRot;
 
     private void Awake()
     {
@@ -150,8 +160,6 @@ public class CameraController : MonoBehaviour
 
         ActiveOffset = Quaternion.AngleAxis(ActiveAngle, Vector3.up) * (Vector3.forward * CameraArmLengthPerspective);
 
-        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, 0f);
-
         // Vertical tilt.
         HeightOffsetPerspective += Input.GetAxis("LookTilt") * HeightAdjustSpeedPerspective * Time.deltaTime;
         HeightOffsetPerspective = Mathf.Clamp(HeightOffsetPerspective, MinHeightPerspective, MaxHeightPerspective);
@@ -170,12 +178,11 @@ public class CameraController : MonoBehaviour
         }
 
         // Horizontal rotation.
-        ActiveAngle += Input.GetAxis("LookHorizontal") * TurnSpeed * Time.deltaTime;
+        ActiveAngle += (-1f * Input.GetAxis("LookHorizontal")) * TurnSpeed * Time.deltaTime;
 
         // Zoom with CameraArmLengthPerspective
-        CameraArmLengthPerspective += Input.GetAxis("Scrollwheel") * ZoomSpeedScrollPerspective * Time.deltaTime;
-        CameraArmLengthPerspective += Input.GetAxis("Zoom") * ZoomSpeedScrollPerspective * Time.deltaTime;
-        CameraArmLengthPerspective = Mathf.Clamp(CameraArmLengthPerspective, ZoomArmlengthMin, ZoomArmLengthMax);
+        ZoomHeightTopDown += Input.GetAxis("LookTilt") * ZoomSpeedTopDown * Time.deltaTime;
+        ZoomHeightTopDown = Mathf.Clamp(ZoomHeightTopDown, ZoomTopDownMin, ZoomTopDownMax);
     }
 
     private void LateUpdate()
@@ -217,20 +224,19 @@ public class CameraController : MonoBehaviour
         // Smoothly move to active target pos.
         transform.position = Vector3.Lerp(transform.position, adjustedTargetPos, FollowSpeed * Time.deltaTime);
 
-        transform.LookAt(Target);
+        // Look at the target (player).
+        transform.LookAt(Target.position);
     }
 
     private void LateUpdateTopDown()
     {
         Vector3 adjustedTargetPos = Target.position;
-        adjustedTargetPos.y = FixedTargetHeight + HeightOffsetPerspective;
-
-        adjustedTargetPos += ActiveOffset;
+        adjustedTargetPos.y = FixedTargetHeight + ZoomHeightTopDown;
 
         // Smoothly move to active target pos.
         transform.position = Vector3.Lerp(transform.position, adjustedTargetPos, FollowSpeed * Time.deltaTime);
 
-        transform.LookAt(Target);
-        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, ActiveAngle);
+        //transform.LookAt(Target);
+        transform.localEulerAngles = new Vector3(90f, 0f, ActiveAngle);
     }
 }
