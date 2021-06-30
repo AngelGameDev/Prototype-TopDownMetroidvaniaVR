@@ -5874,15 +5874,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 21469301}
+  ViewMode: 0
   TurnSpeed: 130
   FollowSpeed: 35
-  MinHeight: 0
-  MaxHeight: 25
-  HeightAdjustSpeed: 20
+  CameraArmLengthIso: 35
   OrthoMin: 1.5
   OrthoMax: 15
-  ZoomSpeedScroll: -150
-  ZoomSpeedButton: -4
+  ZoomSpeedScrollIso: 100
+  ZoomSpeedButtonIso: 10
+  MinHeightIso: 0
+  MaxHeightIso: 35
+  HeightAdjustSpeedIso: 10
+  CameraArmLengthPerspective: 8.968616
+  ZoomSpeedScrollPerspective: 100
+  ZoomSpeedButtonPerspective: 10
+  ZoomArmlengthMin: 3
+  ZoomArmLengthMax: 20
+  MinHeightPerspective: 0
+  MaxHeightPerspective: 25
+  HeightAdjustSpeedPerspective: 20
 --- !u!1001 &983570611
 PrefabInstance:
   m_ObjectHideFlags: 0
