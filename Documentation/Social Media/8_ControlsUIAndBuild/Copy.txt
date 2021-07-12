@@ -1,3 +1,0 @@
-Got that WebGL build made, so if anyone wants to mess around with the camera check it out here and let me know your thoughts:
-
-[Link]
