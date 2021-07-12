@@ -5874,7 +5874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 21469301}
-  ViewMode: 2
+  ViewMode: 0
   TurnSpeed: 130
   FollowSpeed: 20
   CameraArmLengthIso: 35

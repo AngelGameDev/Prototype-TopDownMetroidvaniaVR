@@ -1,0 +1,3 @@
+Last week I used my little dungeon demo to experiment with camera. Added real-time controls to three view modes. 
+
+Here it is, for an isometric/orthographic camera (I wish more games gave camera control in ortho; this felt cool to mess with)

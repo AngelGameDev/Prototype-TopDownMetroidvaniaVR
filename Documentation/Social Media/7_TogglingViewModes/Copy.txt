@@ -1,0 +1,3 @@
+Added a toggle-able HUD display and the ability to toggle through the three view modes (Orthographic, perspective, and top-down). 
+
+Going to try and get this tiny tech prototype onto a WebGL build and get feedback soon. I'll post an open link on Twitter.
